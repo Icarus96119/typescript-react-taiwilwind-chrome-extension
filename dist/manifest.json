@@ -1,0 +1,22 @@
+{
+  "name": "React TypeScript Tailwind CSS Chrome Extension",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "React TypeScript Tailwind CSS chrome extension",
+  "icons": {
+    "16": "icons/setvi16.png",
+    "48": "icons/setvi48.png",
+    "128": "icons/setvi128.png"
+  },
+  "browser_action": {
+    "default_title": "React TypeScript Tailwind CSS",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "https://*/*",
+    "identity",
+    "notifications"
+  ]
+}
+  
